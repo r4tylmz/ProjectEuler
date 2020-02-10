@@ -8,6 +8,7 @@ namespace Problem12
         {
             int count = 0;
 
+            // 1 <= m <= sayinin karekoku   m= sayinin boleni
             for (int i = 1; i <= Math.Sqrt(number); i++)
             {
                 if (number % i == 0)
